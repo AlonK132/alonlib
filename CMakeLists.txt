@@ -6,4 +6,5 @@ set(CMAKE_C_STANDARD 11)
 add_executable(alonlib main.c
         io/io.h
         io/io.c
-        string/string.c)
+        string/string.c
+        math/math.c)

@@ -12,7 +12,7 @@ long double al_exp(double x){
     if(x > 0) {
         double e = M_E;
         long double result = e;
-        for (int i = 0; i < x; i++)
+        for (int i = 0; i < x - 1; i++)
             result = result * e;
         return result;
     }
