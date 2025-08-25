@@ -3,8 +3,9 @@ project(alonlib C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(alonlib main.c
-        io/io.h
+add_executable(alonlib
+        main.c
         io/io.c
         string/string.c
-        math/math.c)
+        math/math.c
+        memory/memory.c)
