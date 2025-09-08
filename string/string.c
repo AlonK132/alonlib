@@ -15,3 +15,13 @@ void *al_memchr(const void *str, int c, size_t n){
     }
     return NULL;
 }
+size_t al_strlen(const char *s){
+    size_t length = 0;
+    if(s == NULL)
+        return length;
+    while(*s != '\0'){
+        length++;
+        s++;
+    }
+    return length;
+}
