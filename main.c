@@ -1,6 +1,6 @@
 #include <stdio.h>
+#include "memory/memory.h"
 
-#include "math/math.h"
 int main() {
     return 0;
 }
