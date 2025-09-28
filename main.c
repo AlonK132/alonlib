@@ -1,4 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+#include "math/math.h"
+int main() {
+    return 0;
 }
